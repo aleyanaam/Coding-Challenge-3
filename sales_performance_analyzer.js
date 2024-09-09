@@ -51,3 +51,11 @@ topSales = Math.max(...salesData); //Finds the top performer
 bottomSales = Math.min(...salesData); // Finds the bottom performer
 
 console.log({ topPerformer, bottomPerformer });
+
+//Task 4
+function generatePerformanceReport(salesData){
+    var performanceReport = [];
+    return (performanceReport);
+
+    console.log(performanceReport);
+}

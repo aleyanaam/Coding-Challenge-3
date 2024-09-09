@@ -32,12 +32,18 @@ function findTopAndBottomPerformers(salesData){
 };
     var topPerformer; //Initialize the variable for top performer
     var bottomPerformer; // Initializes the varibale for bottom performer
-salesData = [
-    { name: 'Luke', sales: [12000, 15000, 13000] },
-    { name: 'Matthew', sales: [7000, 6000, 7500] },
-    { name: 'John', sales: [3000, 4000, 3500] },
-    { name: 'Andrea', sales: [9000, 8500, 9200] }
-];
+    const salesData = [
+
+        { name: 'Alice', sales: [12000, 15000, 13000] },
+        
+        { name: 'Bob', sales: [7000, 6000, 7500] },
+        
+        { name: 'Charlie', sales: [3000, 4000, 3500] },
+        
+        { name: 'Diana', sales: [9000, 8500, 9200] },
+        
+        ];
+        
     // Finds the indivdual sum of sales for each person
    const salesTotals = salesData.reduce((index, person) => {
         const totalSales = person.sales.reduce((sum, sale) => sum + sale, 0);
